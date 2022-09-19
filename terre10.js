@@ -9,6 +9,7 @@ function racineCarree(nombre) {
     return racine - 1;
 }
 // gestion d'erreurs
+// error gestion
 if (process.argv[2] === undefined) {
     console.log("erreur");
     process.exit(1);
