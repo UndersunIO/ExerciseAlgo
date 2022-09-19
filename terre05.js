@@ -1,6 +1,4 @@
 let resultat = parseInt(process.argv[2])
-
-
 if (resultat % 2 === 0) {
     console.log("pair")
 }
