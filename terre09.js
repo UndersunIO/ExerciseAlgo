@@ -15,8 +15,7 @@ if (process.argv.length < 4) {
 } else if (parseInt(process.argv[2]) === NaN || parseInt(process.argv[3]) === NaN) {
     console.log("erreur : arguments non numériques");
     process.exit(1);
-} // si args2 ou args3 n'est pas un nombre, alors parseInt renvoie NaN
-else if (process.argv[2] < 0 || process.argv[3] < 0) {
+} else if (process.argv[2] < 0 || process.argv[3] < 0) {
     console.log("erreur : arguments négatifs");
     process.exit(1);
 } else if (process.argv[2] === 0 && process.argv[3] === 0) {
