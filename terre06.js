@@ -1,4 +1,3 @@
-// calcul division
 let Number1 = parseInt(process.argv[2])
 let Number2 = parseInt(process.argv[3])
 
